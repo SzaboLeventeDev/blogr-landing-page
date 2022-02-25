@@ -1,0 +1,200 @@
+/* 
+font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; 
+*/
+.header{
+    /* width: 100vw; */
+    background-image: url("images/bg-pattern-intro-desktop.svg"),linear-gradient(90deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: -120px;
+    background-size: 150%;
+    text-align: center;
+    border-radius: 0 0 0 100px;
+    height: auto;
+    padding-bottom: 5vh;
+}
+
+body{
+    margin: 0;   
+}
+nav{
+    margin: 2vh 3vw 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 10vw;
+}
+.menu{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: -20vw;
+}
+.menuSections{
+    margin-top: 1vh;
+    margin-right: 6vw;
+}
+.menuBtn{
+display: flex;
+}
+.menuBtn:hover + .menuBox{
+    
+    /* rotate arrow */
+
+    /* menuBox visible */
+    display: block;
+}
+.menuBox{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1vh 1vw;
+    color: hsl(208, 49%, 24%);
+    display: none;
+}
+.menuBox:hover{
+    text-decoration: underline;
+}
+/* buttons */
+
+.loginButtons .redBtn, .whiteBtn{
+    font-family: 'Ubuntu', sans-serif;
+}
+.loginButtons .redBtn{
+    border: 0;
+    
+}
+.loginButtons{
+    margin-top: 4vh;
+}
+.whiteBtn, .redBtn{
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 0.5vw 0 0.5vw;
+}
+.whiteBtn{
+    color: hsl(356, 100%, 66%);
+    background-color: hsl(0, 0%, 100%);
+}
+.whiteBtn:hover{
+    background-color: hsl(356, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.redBtn{
+    background-color: hsl(356, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%)
+}
+.redBtn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    cursor: pointer;
+}
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    color:hsl(0, 0%, 100%);
+    
+}
+.header h2{
+    color:hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+main{
+    color: hsl(207, 13%, 34%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+
+}
+main h2{
+    font-family: 'Ubuntu';
+    margin-top: 14vh;
+    font-weight: 700;
+    text-align: center;
+}
+main h2, h3{
+    color: hsl(208, 49%, 24%)
+}
+
+article, footer p{
+    line-height: 2;
+    font-size: 16px; 
+    
+}
+.sections{
+    display: flex;
+    margin-bottom: 10vh;
+}
+.contents{
+    padding: 30vh 15vw;
+    /* display: flex;
+    flex-direction: column; */
+    vertical-align: center;
+    
+}
+.phones{
+    height: 40vh;
+    background-image: url("images/bg-pattern-circles.svg"), linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 0 100px 0 100px;
+    background-position: left bottom;
+    overflow: visible;
+    background-repeat: no-repeat;
+}
+.phones h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.phonePictures{
+    margin-top: -50px;
+    
+}
+/* footer */
+footer{
+    background-color: hsl(240, 10%, 16%);
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 18vw;
+    border-top-right-radius: 100px;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer h4{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+footer p{
+    color: hsl(240, 2%, 79%);
+    margin: 0;
+}
+footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* images */
+.imageRight{
+    /* margin-right: -20vw; */
+    margin-right: -10px;
+}
+.imageLeft{
+    margin-left: -25vw;
+}
+/* contents */
+.artInfrastructureContent{
+    padding: 2vh 15vw;
+    margin-left: 5vw;
+
+}
+.artInfrastructureContent h2{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    
+}
