@@ -107,6 +107,7 @@ h1{
     color:hsl(0, 0%, 100%);
     font-family: 'Overpass', sans-serif;
 }
+/* content part */
 main{
     color: hsl(207, 13%, 34%);
     font-family: "Overpass", sans-serif;
@@ -156,6 +157,11 @@ article, footer p{
     margin-top: -50px;
     
 }
+/* actual content */
+.first{
+    width: 40vw;
+}
+
 /* footer */
 footer{
     background-color: hsl(240, 10%, 16%);
@@ -181,8 +187,12 @@ footer p:hover{
 }
 /* images */
 .imageRight{
-    /* margin-right: -20vw; */
-    margin-right: -10px;
+    background-image: url(images/illustration-editor-desktop.svg);
+    background-position-x: 60vw;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: auto;
+    
 }
 .imageLeft{
     margin-left: -25vw;
